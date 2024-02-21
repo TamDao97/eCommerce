@@ -1,0 +1,12 @@
+D:\Coderkechuyen\eCom\eCom.Lib\obj\Debug\net6.0\Base.Lib.csproj.AssemblyReference.cache
+D:\Coderkechuyen\eCom\eCom.Lib\obj\Debug\net6.0\Base.Lib.GeneratedMSBuildEditorConfig.editorconfig
+D:\Coderkechuyen\eCom\eCom.Lib\obj\Debug\net6.0\Base.Lib.AssemblyInfoInputs.cache
+D:\Coderkechuyen\eCom\eCom.Lib\obj\Debug\net6.0\Base.Lib.AssemblyInfo.cs
+D:\Coderkechuyen\eCom\eCom.Lib\obj\Debug\net6.0\Base.Lib.csproj.CoreCompileInputs.cache
+D:\Coderkechuyen\eCom\eCom.Lib\bin\Debug\net6.0\Base.Lib.deps.json
+D:\Coderkechuyen\eCom\eCom.Lib\bin\Debug\net6.0\Base.Lib.dll
+D:\Coderkechuyen\eCom\eCom.Lib\bin\Debug\net6.0\Base.Lib.pdb
+D:\Coderkechuyen\eCom\eCom.Lib\obj\Debug\net6.0\Base.Lib.dll
+D:\Coderkechuyen\eCom\eCom.Lib\obj\Debug\net6.0\refint\Base.Lib.dll
+D:\Coderkechuyen\eCom\eCom.Lib\obj\Debug\net6.0\Base.Lib.pdb
+D:\Coderkechuyen\eCom\eCom.Lib\obj\Debug\net6.0\ref\Base.Lib.dll
