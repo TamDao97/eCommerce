@@ -3,9 +3,19 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "eCom.Admin": {
+    "eCom.Admin_Train": {
       "projectType": "application",
-      "schematics": {},
+      "schematics": {
+        "@schematics/angular:component": {
+          "standalone": false
+        },
+        "@schematics/angular:directive": {
+          "standalone": false
+        },
+        "@schematics/angular:pipe": {
+          "standalone": false
+        }
+      },
       "root": "",
       "sourceRoot": "src",
       "prefix": "app",
@@ -13,7 +23,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/e-com.admin",
+            "outputPath": "dist/e-com.admin-train",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -57,10 +67,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "eCom.Admin:build:production"
+              "buildTarget": "eCom.Admin_Train:build:production"
             },
             "development": {
-              "buildTarget": "eCom.Admin:build:development"
+              "buildTarget": "eCom.Admin_Train:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -68,7 +78,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "buildTarget": "eCom.Admin:build"
+            "buildTarget": "eCom.Admin_Train:build"
           }
         },
         "test": {
@@ -91,8 +101,5 @@
         }
       }
     }
-  },
-  "cli": {
-    "analytics": "9420486e-1d09-4750-a15d-08ae48f51003"
   }
 }
