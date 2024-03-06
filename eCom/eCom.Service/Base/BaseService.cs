@@ -11,10 +11,19 @@ namespace eCom.Service.Base
 {
     public interface IBaseService<T> where T : BaseEntity, new()
     {
+        #region CRUD
         Task<T> Insert(T entity);
         Task<T> Update(T entity);
         Task<T> Delete(T entity, bool isActual = false);
+        #endregion
+
+        #region GET
         Task<T> GetById(Guid id);
+        #endregion
+
+        #region Validation logic
+        bool IsDuplicated(string field, ref string errorMess);
+        #endregion
     }
 
     public class BaseService<T> : IBaseService<T> where T : BaseEntity, new()
@@ -88,5 +97,15 @@ namespace eCom.Service.Base
 
             return entity;
         }
+
+        #region Validation logic
+        public bool IsDuplicated(string fieldCheck, ref string errorMess)
+        {
+            if (_unitOfWork.GetRepository<T>().AsNoTracking.Any(r => r.GetType().GetProperty(fieldCheck).GetValue(r, null)) ==)
+            {
+
+            };
+        }
+        #endregion
     }
 }

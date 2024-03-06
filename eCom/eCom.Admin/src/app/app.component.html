@@ -9,6 +9,12 @@
     <!-- header -->
 
     <main class="content">
+      <form [formGroup]="frmGroup" (submit)="submit()">
+        <app-input formControlName="name"></app-input>
+        <app-input formControlName="color"></app-input>
+        <app-button [text]="'click'"></app-button>
+      </form>
+
       <router-outlet></router-outlet>
     </main>
 

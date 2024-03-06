@@ -21,8 +21,7 @@ namespace eCom.API.Controllers.Base
         public async Task<ActionResult<Response<bool>>> Insert(TDto dtoReq)
         {
             TEntity entity = AutoMapperGeneric.Map<TDto, TEntity>(dtoReq);
-            var rs = await _baseService.Insert(entity);
-            return Ok();
+            return Ok(await _baseService.Insert(entity));
         }
 
         [Route("update")]
