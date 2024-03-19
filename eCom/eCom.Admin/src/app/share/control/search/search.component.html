@@ -1,0 +1,12 @@
+<nz-input-group [nzSuffix]="icon">
+  <input
+    type="text"
+    nz-input
+    [placeholder]="placeholder"
+    [(ngModel)]="keyWord"
+    (ngModelChange)="onChange.next($event)"
+  />
+</nz-input-group>
+<ng-template #icon>
+  <span nz-icon nzType="search"></span>
+</ng-template>

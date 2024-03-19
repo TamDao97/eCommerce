@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { FormBuilder, FormGroup } from '@angular/forms';
+import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 
 @Component({
   selector: 'app-root',
@@ -12,12 +12,14 @@ export class AppComponent {
 
   constructor(private fb: FormBuilder) {
     this.frmGroup = this.fb.group({
-      name: [null],
-      color: [null],
+      name: [null, [Validators.required]],
     });
   }
 
   submit(): void {
-    console.log(this.frmGroup.value);
+    if (this.frmGroup.invalid) {
+      return;
+    }
+    this.frmGroup.get('name')?.setValue('add new');
   }
 }

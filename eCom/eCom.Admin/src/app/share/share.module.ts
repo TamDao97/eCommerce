@@ -1,30 +1,22 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { ButtonComponent } from './button/button.component';
-import { InputComponent } from './input/input.component';
-import { SelectComponent } from './select/select.component';
-import { GridComponent } from './grid/grid.component';
-import { TextAreaComponent } from './text-area/text-area.component';
+import { NzInputModule } from 'ng-zorro-antd/input';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { NzGridModule } from 'ng-zorro-antd/grid';
+import { SearchComponent } from './control/search/search.component';
+import { NzIconModule } from 'ng-zorro-antd/icon';
 
 @NgModule({
-  declarations: [
-    ButtonComponent,
-    InputComponent,
-    SelectComponent,
-    GridComponent,
-    TextAreaComponent,
-  ],
-  imports: [CommonModule, ReactiveFormsModule, FormsModule],
+  declarations: [SearchComponent],
+  imports: [FormsModule, NzIconModule, NzInputModule],
   exports: [
     CommonModule,
     ReactiveFormsModule,
     FormsModule,
-    ButtonComponent,
-    InputComponent,
-    SelectComponent,
-    GridComponent,
-    TextAreaComponent,
+    NzIconModule,
+    NzInputModule,
+    NzGridModule,
+    SearchComponent,
   ],
 })
 export class ShareModule {}
