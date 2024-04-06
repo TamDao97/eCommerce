@@ -8,6 +8,7 @@ using System.Threading.Tasks;
 using eCom.DataContext.Entity.OrderSite;
 using eCom.DataContext.Dto;
 using eCom.DataContext.UnitOfWork;
+using Lib.Common;
 
 namespace eCom.Service
 {
@@ -22,11 +23,24 @@ namespace eCom.Service
         {
         }
 
-        public virtual async Task<RoleDto> Insert(Role entity)
+        public override async Task<Response<Role>> Insert(Role entity)
         {
-            await base.Insert(entity);
-            _unitOfWork.SaveChanges();
-            return AutoMapperGeneric.Map<Role, RoleDto>(entity);
+            string errorMess = "";
+
+            if (IsDuplicated(ref errorMess, nameof(entity.Code), entity.Code, entity.Id))
+                return Response<Role>.Error(StatusCode.InternalServerError, String.Format(MessageText.Duplicate, entity.Code));
+
+            return await base.Insert(entity);
+        }
+
+        public override async Task<Response<Role>> Update(Role entity)
+        {
+            string errorMess = "";
+
+            if (IsDuplicated(ref errorMess, nameof(entity.Code), entity.Code, entity.Id))
+                return Response<Role>.Error(StatusCode.InternalServerError, String.Format(MessageText.Duplicate, entity.Code));
+
+            return await base.Update(entity);
         }
     }
 }

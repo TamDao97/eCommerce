@@ -76,11 +76,12 @@ namespace eCom.Service
 
         public async Task<Response<bool>> Register(RegisterReq req)
         {
+            string errorMess = "";
             if (req.Password != req.PasswordConfirm)
                 return Response<bool>.Error(StatusCode.InternalServerError, StatusCode.InternalServerError.ToDescription());
 
-            if (_unitOfWork.GetRepository<User>().AsNoTracking.Any(r => r.UserName == req.UserName))
-                return Response<bool>.Error(StatusCode.InternalServerError, StatusCode.InternalServerError.ToDescription());
+            //if (IsDuplicated(ref errorMess, nameof(req.UserName), req.UserName))
+            //    return Response<bool>.Error(StatusCode.InternalServerError, errorMess);
 
             // map model to new user object
             var user = new User

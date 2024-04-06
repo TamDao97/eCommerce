@@ -11,13 +11,13 @@ using System.Threading.Tasks;
 
 namespace eCom.Service
 {
-    public interface ICustomerService : IBaseService<Customer>
+    public interface IGroupRoleService : IBaseService<GroupRole>
     {
     }
 
-    public class CustomerService : BaseService<Customer>, ICustomerService
+    public class GroupRoleService : BaseService<GroupRole>, IGroupRoleService
     {
-        public CustomerService(IUnitOfWork unitOfWork) : base(unitOfWork)
+        public GroupRoleService(IUnitOfWork unitOfWork) : base(unitOfWork)
         {
         }
 
@@ -28,7 +28,7 @@ namespace eCom.Service
             if (IsDuplicated(ref errorMess, nameof(entity.CustomerCode), entity.CustomerCode, entity.Id))
                 return Response<Customer>.Error(StatusCode.InternalServerError, String.Format(MessageText.Duplicate, entity.CustomerCode));
 
-            if (IsDuplicated(ref errorMess, nameof(entity.Phone), entity.Phone, entity.Id))
+            if (IsDuplicated(ref errorMess, nameof(entity.Phone), entity.CustomerCode, entity.Id))
                 return Response<Customer>.Error(StatusCode.InternalServerError, String.Format(MessageText.Duplicate, entity.CustomerCode));
 
             return await base.Insert(entity);

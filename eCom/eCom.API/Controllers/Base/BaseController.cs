@@ -18,7 +18,7 @@ namespace eCom.API.Controllers.Base
 
         [Route("insert")]
         [HttpPost]
-        public async Task<ActionResult<Response<bool>>> Insert(TDto dtoReq)
+        public virtual async Task<ActionResult<Response<bool>>> Insert(TDto dtoReq)
         {
             TEntity entity = AutoMapperGeneric.Map<TDto, TEntity>(dtoReq);
             return Ok(await _baseService.Insert(entity));
@@ -26,7 +26,7 @@ namespace eCom.API.Controllers.Base
 
         [Route("update")]
         [HttpPost]
-        public async Task<ActionResult<Response<bool>>> Update(TDto dtoReq)
+        public virtual async Task<ActionResult<Response<bool>>> Update(TDto dtoReq)
         {
             TEntity entity = AutoMapperGeneric.Map<TDto, TEntity>(dtoReq);
             return Ok(await _baseService.Update(entity));
@@ -34,15 +34,15 @@ namespace eCom.API.Controllers.Base
 
         [Route("delete/{id}")]
         [HttpPost]
-        public async Task<ActionResult<Response<bool>>> Delete(Guid id)
+        public virtual async Task<ActionResult<Response<bool>>> Delete(Guid id)
         {
-            TEntity entity = await _baseService.GetById(id);
+            TEntity entity = (await _baseService.GetById(id)).Data;
             return Ok(await _baseService.Delete(entity));
         }
 
         [Route("getbyid/{id}")]
         [HttpPost]
-        public async Task<ActionResult<Response<bool>>> GetById(Guid id)
+        public virtual async Task<ActionResult<Response<bool>>> GetById(Guid id)
         {
             return Ok(await _baseService.GetById(id));
         }

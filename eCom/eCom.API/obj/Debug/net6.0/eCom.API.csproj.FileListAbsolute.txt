@@ -179,3 +179,4 @@ D:\Coderkechuyen\eCommerce\eCom\eCom.API\obj\Debug\net6.0\refint\eCom.API.dll
 D:\Coderkechuyen\eCommerce\eCom\eCom.API\obj\Debug\net6.0\eCom.API.pdb
 D:\Coderkechuyen\eCommerce\eCom\eCom.API\obj\Debug\net6.0\eCom.API.genruntimeconfig.cache
 D:\Coderkechuyen\eCommerce\eCom\eCom.API\obj\Debug\net6.0\ref\eCom.API.dll
+D:\Coderkechuyen\eCommerce\eCom\eCom.API\obj\Debug\net6.0\eCom.API.MvcApplicationPartsAssemblyInfo.cs

@@ -1,17 +1,117 @@
 <div nz-row>
-  <div nz-col nzSpan="12">
+  <div nz-col nzSpan="24">
+    <h3 class="text-bold">Quản lý tài khoản</h3>
+  </div>
+</div>
+<div nz-row class="mb-3">
+  <!-- <div nz-col nzSpan="12">
     <app-search (onChange)="onSearch($event)"></app-search>
   </div>
-  <div nz-col nzSpan="12">col-12</div>
+  <div nz-col nzSpan="12">col-12</div> -->
+
+  <div nz-col nzSpan="4" nzOffset="18" class="pe-2">
+    <nz-input-group [nzSuffix]="suffixIconSearch">
+      <input type="text" nz-input placeholder="input search text" />
+    </nz-input-group>
+    <ng-template #suffixIconSearch>
+      <span nz-icon nzType="search"></span>
+    </ng-template>
+  </div>
+  <div nz-col nzSpan="2" class="d-flex justify-content-end">
+    <button nz-button nzType="primary">
+      <span nz-icon nzType="search"></span>
+      Tìm kiếm
+    </button>
+    <button
+      nz-button
+      nzType="primary"
+      class="ms-1"
+      data-bs-toggle="collapse"
+      href="#collapseExample"
+      role="button"
+      aria-expanded="false"
+      aria-controls="collapseExample"
+    >
+      <span nz-icon nzType="caret-down" nzTheme="outline"></span>
+    </button>
+  </div>
+</div>
+<div nz-row class="mt-3" class="collapse" id="collapseExample">
+  <div nz-col nzSpan="4" nzOffset="6" class="pe-2">
+    <nz-select
+      nzShowSearch
+      nzAllowClear
+      nzPlaceHolder="Select a person"
+      style="width: 100%"
+    >
+      <nz-option nzLabel="Jack" nzValue="jack"></nz-option>
+      <nz-option nzLabel="Lucy" nzValue="lucy"></nz-option>
+      <nz-option nzLabel="Tom" nzValue="tom"></nz-option>
+    </nz-select>
+  </div>
+  <div nz-col nzSpan="4" class="pe-2">
+    <nz-select
+      nzShowSearch
+      nzAllowClear
+      nzPlaceHolder="Select a person"
+      style="width: 100%"
+    >
+      <nz-option nzLabel="Jack" nzValue="jack"></nz-option>
+      <nz-option nzLabel="Lucy" nzValue="lucy"></nz-option>
+      <nz-option nzLabel="Tom" nzValue="tom"></nz-option>
+    </nz-select>
+  </div>
+  <div nz-col nzSpan="4" class="pe-2">
+    <nz-select
+      nzShowSearch
+      nzAllowClear
+      nzPlaceHolder="Select a person"
+      style="width: 100%"
+    >
+      <nz-option nzLabel="Jack" nzValue="jack"></nz-option>
+      <nz-option nzLabel="Lucy" nzValue="lucy"></nz-option>
+      <nz-option nzLabel="Tom" nzValue="tom"></nz-option>
+    </nz-select>
+  </div>
+  <div nz-col nzSpan="4" class="pe-2">
+    <nz-select
+      nzShowSearch
+      nzAllowClear
+      nzPlaceHolder="Select a person"
+      style="width: 100%"
+    >
+      <nz-option nzLabel="Jack" nzValue="jack"></nz-option>
+      <nz-option nzLabel="Lucy" nzValue="lucy"></nz-option>
+      <nz-option nzLabel="Tom" nzValue="tom"></nz-option>
+    </nz-select>
+  </div>
 </div>
 <div nz-row>
-  <div nz-col nzSpan="8">col-8</div>
-  <div nz-col nzSpan="8">col-8</div>
-  <div nz-col nzSpan="8">col-8</div>
+  <div nz-col nzSpan="24">
+    <button nz-button nzType="primary">Thêm mới</button>
+  </div>
 </div>
-<div nz-row>
-  <div nz-col nzSpan="6">col-6</div>
-  <div nz-col nzSpan="6">col-6</div>
-  <div nz-col nzSpan="6">col-6</div>
-  <div nz-col nzSpan="6">col-6</div>
+<div nz-row class="mt-3">
+  <nz-table #basicTable [nzData]="listOfData" style="width: 100%">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Age</th>
+        <th>Address</th>
+        <th>Action</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let data of basicTable.data">
+        <td>{{ data.name }}</td>
+        <td>{{ data.age }}</td>
+        <td>{{ data.address }}</td>
+        <td>
+          <a>Action 一 {{ data.name }}</a>
+          <nz-divider nzType="vertical"></nz-divider>
+          <a>Delete</a>
+        </td>
+      </tr>
+    </tbody>
+  </nz-table>
 </div>

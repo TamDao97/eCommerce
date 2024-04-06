@@ -25,11 +25,14 @@ namespace eCom.API.Controllers
             _userService = userService;
         }
 
-        [Route("demo")]
-        [HttpPost]
-        public async Task<ActionResult<Response<CurrentUser>>> Demo(LoginReq req)
+        public override Task<ActionResult<Response<bool>>> Insert(UserDto dtoReq)
         {
-            return Ok();
+            return base.Insert(dtoReq);
+        }
+
+        public override Task<ActionResult<Response<bool>>> Update(UserDto dtoReq)
+        {
+            return base.Update(dtoReq);
         }
     }
 }

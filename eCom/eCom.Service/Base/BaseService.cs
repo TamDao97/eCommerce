@@ -1,6 +1,10 @@
-﻿using eCom.DataContext.Entity;
+﻿using eCom.DataContext.Dto;
+using eCom.DataContext.Entity;
 using eCom.DataContext.Entity.Base;
+using eCom.DataContext.Entity.OrderSite;
 using eCom.DataContext.UnitOfWork;
+using Lib.Common;
+using Lib.Helper;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,17 +16,17 @@ namespace eCom.Service.Base
     public interface IBaseService<T> where T : BaseEntity, new()
     {
         #region CRUD
-        Task<T> Insert(T entity);
-        Task<T> Update(T entity);
-        Task<T> Delete(T entity, bool isActual = false);
+        Task<Response<T>> Insert(T entity);
+        Task<Response<T>> Update(T entity);
+        Task<Response<T>> Delete(T entity, bool isActual = false);
         #endregion
 
         #region GET
-        Task<T> GetById(Guid id);
+        Task<Response<T>> GetById(Guid id);
         #endregion
 
         #region Validation logic
-        bool IsDuplicated(string field, ref string errorMess);
+        public bool IsDuplicated(ref string errorMess, string fieldCheck, object valueCheck, object idValue = null);
         #endregion
     }
 
@@ -35,7 +39,7 @@ namespace eCom.Service.Base
             _unitOfWork = unitOfWork;
         }
 
-        public virtual async Task<T> Insert(T entity)
+        public virtual async Task<Response<T>> Insert(T entity)
         {
             if (entity == null)
                 throw new ArgumentNullException();
@@ -49,10 +53,10 @@ namespace eCom.Service.Base
 
             entity = _unitOfWork.GetRepository<T>().Insert(entity);
             _unitOfWork.SaveChanges();
-            return entity;
+            return Response<T>.Success(entity, StatusCode.Ok.ToDescription());
         }
 
-        public virtual async Task<T> Update(T entity)
+        public virtual async Task<Response<T>> Update(T entity)
         {
             if (entity == null)
                 throw new ArgumentNullException();
@@ -63,10 +67,10 @@ namespace eCom.Service.Base
 
             entity = _unitOfWork.GetRepository<T>().Update(entity);
             _unitOfWork.SaveChanges();
-            return entity;
+            return Response<T>.Success(entity, StatusCode.Ok.ToDescription());
         }
 
-        public virtual async Task<T> Delete(T entity, bool isActual = false)
+        public virtual async Task<Response<T>> Delete(T entity, bool isActual = false)
         {
             if (entity == null)
                 throw new ArgumentNullException();
@@ -79,32 +83,34 @@ namespace eCom.Service.Base
 
                 entity = _unitOfWork.GetRepository<T>().Update(entity);
                 _unitOfWork.SaveChanges();
-                return entity;
+                return Response<T>.Success(entity, StatusCode.Ok.ToDescription());
             }
             else
             {
                 entity = _unitOfWork.GetRepository<T>().Delete(entity);
                 _unitOfWork.SaveChanges();
-                return entity;
+                return Response<T>.Success(entity, StatusCode.Ok.ToDescription());
             }
         }
 
-        public virtual async Task<T> GetById(Guid id)
+        public virtual async Task<Response<T>> GetById(Guid id)
         {
             T entity = _unitOfWork.GetRepository<T>().GetById(id);
             if (entity == null)
                 throw new ArgumentNullException();
 
-            return entity;
+            return Response<T>.Success(entity, StatusCode.Ok.ToDescription());
         }
 
         #region Validation logic
-        public bool IsDuplicated(string fieldCheck, ref string errorMess)
+        public bool IsDuplicated(ref string errorMess, string fieldCheck, object valueCheck, object idValue = null)
         {
-            if (_unitOfWork.GetRepository<T>().AsNoTracking.Any(r => r.GetType().GetProperty(fieldCheck).GetValue(r, null)) ==)
+            if (_unitOfWork.GetRepository<T>().AsNoTracking.AsEnumerable().Any(r => r.GetType().GetProperty("Id").GetValue(r, null).ToString() != idValue.ToString() && r.GetType().GetProperty(fieldCheck).GetValue(r, null).ToString() == valueCheck.ToString()))
             {
-
-            };
+                errorMess = string.Format(MessageText.Duplicate, fieldCheck);
+                return true;
+            }
+            else return false;
         }
         #endregion
     }
