@@ -89,12 +89,6 @@ D:\Coderkechuyen\eCom\eCom.API\obj\Debug\net6.0\refint\eCom.API.dll
 D:\Coderkechuyen\eCom\eCom.API\obj\Debug\net6.0\eCom.API.pdb
 D:\Coderkechuyen\eCom\eCom.API\obj\Debug\net6.0\eCom.API.genruntimeconfig.cache
 D:\Coderkechuyen\eCom\eCom.API\obj\Debug\net6.0\ref\eCom.API.dll
-D:\Coderkechuyen\eCommerce\eCom\eCom.API\obj\Debug\net6.0\eCom.API.csproj.AssemblyReference.cache
-D:\Coderkechuyen\eCommerce\eCom\eCom.API\obj\Debug\net6.0\eCom.API.GeneratedMSBuildEditorConfig.editorconfig
-D:\Coderkechuyen\eCommerce\eCom\eCom.API\obj\Debug\net6.0\eCom.API.AssemblyInfoInputs.cache
-D:\Coderkechuyen\eCommerce\eCom\eCom.API\obj\Debug\net6.0\eCom.API.AssemblyInfo.cs
-D:\Coderkechuyen\eCommerce\eCom\eCom.API\obj\Debug\net6.0\eCom.API.csproj.CoreCompileInputs.cache
-D:\Coderkechuyen\eCommerce\eCom\eCom.API\obj\Debug\net6.0\eCom.API.MvcApplicationPartsAssemblyInfo.cache
 D:\Coderkechuyen\eCommerce\eCom\eCom.API\bin\Debug\net6.0\appsettings.Development.json
 D:\Coderkechuyen\eCommerce\eCom\eCom.API\bin\Debug\net6.0\appsettings.json
 D:\Coderkechuyen\eCommerce\eCom\eCom.API\bin\Debug\net6.0\eCom.API.exe
@@ -170,6 +164,13 @@ D:\Coderkechuyen\eCommerce\eCom\eCom.API\bin\Debug\net6.0\Lib.dll
 D:\Coderkechuyen\eCommerce\eCom\eCom.API\bin\Debug\net6.0\eCom.Service.pdb
 D:\Coderkechuyen\eCommerce\eCom\eCom.API\bin\Debug\net6.0\eCom.DataContext.pdb
 D:\Coderkechuyen\eCommerce\eCom\eCom.API\bin\Debug\net6.0\Lib.pdb
+D:\Coderkechuyen\eCommerce\eCom\eCom.API\obj\Debug\net6.0\eCom.API.csproj.AssemblyReference.cache
+D:\Coderkechuyen\eCommerce\eCom\eCom.API\obj\Debug\net6.0\eCom.API.GeneratedMSBuildEditorConfig.editorconfig
+D:\Coderkechuyen\eCommerce\eCom\eCom.API\obj\Debug\net6.0\eCom.API.AssemblyInfoInputs.cache
+D:\Coderkechuyen\eCommerce\eCom\eCom.API\obj\Debug\net6.0\eCom.API.AssemblyInfo.cs
+D:\Coderkechuyen\eCommerce\eCom\eCom.API\obj\Debug\net6.0\eCom.API.csproj.CoreCompileInputs.cache
+D:\Coderkechuyen\eCommerce\eCom\eCom.API\obj\Debug\net6.0\eCom.API.MvcApplicationPartsAssemblyInfo.cs
+D:\Coderkechuyen\eCommerce\eCom\eCom.API\obj\Debug\net6.0\eCom.API.MvcApplicationPartsAssemblyInfo.cache
 D:\Coderkechuyen\eCommerce\eCom\eCom.API\obj\Debug\net6.0\staticwebassets.build.json
 D:\Coderkechuyen\eCommerce\eCom\eCom.API\obj\Debug\net6.0\staticwebassets.development.json
 D:\Coderkechuyen\eCommerce\eCom\eCom.API\obj\Debug\net6.0\scopedcss\bundle\eCom.API.styles.css
@@ -179,4 +180,3 @@ D:\Coderkechuyen\eCommerce\eCom\eCom.API\obj\Debug\net6.0\refint\eCom.API.dll
 D:\Coderkechuyen\eCommerce\eCom\eCom.API\obj\Debug\net6.0\eCom.API.pdb
 D:\Coderkechuyen\eCommerce\eCom\eCom.API\obj\Debug\net6.0\eCom.API.genruntimeconfig.cache
 D:\Coderkechuyen\eCommerce\eCom\eCom.API\obj\Debug\net6.0\ref\eCom.API.dll
-D:\Coderkechuyen\eCommerce\eCom\eCom.API\obj\Debug\net6.0\eCom.API.MvcApplicationPartsAssemblyInfo.cs
