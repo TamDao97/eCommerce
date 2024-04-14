@@ -10,6 +10,7 @@ import { NzSelectModule } from 'ng-zorro-antd/select';
 import { NzButtonModule } from 'ng-zorro-antd/button';
 import { NzTableModule } from 'ng-zorro-antd/table';
 import { NzDividerModule } from 'ng-zorro-antd/divider';
+import { NzDropDownModule } from 'ng-zorro-antd/dropdown';
 
 @NgModule({
   declarations: [SearchComponent],
@@ -32,6 +33,7 @@ import { NzDividerModule } from 'ng-zorro-antd/divider';
     NzButtonModule,
     NzTableModule,
     NzDividerModule,
+    NzDropDownModule,
     SearchComponent,
   ],
 })

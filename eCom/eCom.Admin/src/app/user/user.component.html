@@ -98,7 +98,7 @@
         <th>Name</th>
         <th>Age</th>
         <th>Address</th>
-        <th>Action</th>
+        <th>Thao tác</th>
       </tr>
     </thead>
     <tbody>
@@ -107,9 +107,26 @@
         <td>{{ data.age }}</td>
         <td>{{ data.address }}</td>
         <td>
-          <a>Action 一 {{ data.name }}</a>
-          <nz-divider nzType="vertical"></nz-divider>
-          <a>Delete</a>
+          <nz-button-group>
+            <button nz-button>Sửa</button>
+            <button
+              nz-button
+              nz-dropdown
+              [nzDropdownMenu]="actionMenu"
+              nzPlacement="bottomRight"
+            >
+              <span nz-icon nzType="ellipsis"></span>
+            </button>
+          </nz-button-group>
+          <nz-dropdown-menu #actionMenu="nzDropdownMenu">
+            <ul nz-menu>
+              <li nz-menu-item>
+                <button nz-button>Xóa</button>
+              </li>
+              <li nz-menu-item><button nz-button>Đổi mật khẩu</button></li>
+              <li nz-menu-item><button nz-button>Phân quyền</button></li>
+            </ul>
+          </nz-dropdown-menu>
         </td>
       </tr>
     </tbody>
