@@ -1,5 +1,4 @@
 import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
 import { NzInputModule } from 'ng-zorro-antd/input';
 import { NzSelectModule } from 'ng-zorro-antd/select';
 import { FormsModule } from '@angular/forms';
@@ -19,7 +18,7 @@ import { NzTabsModule } from 'ng-zorro-antd/tabs';
 
 @NgModule({
   declarations: [],
-  imports: [CommonModule],
+  imports: [],
   exports: [
     NzInputModule,
     NzSelectModule,

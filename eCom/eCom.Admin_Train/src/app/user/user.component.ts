@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { FormBuilder } from '@angular/forms';
 import { NzMessageService } from 'ng-zorro-antd/message';
 import { NzModalService } from 'ng-zorro-antd/modal';
@@ -9,7 +9,7 @@ import { UserEditComponent } from './user-edit/user-edit.component';
   templateUrl: './user.component.html',
   styleUrl: './user.component.css',
 })
-export class UserComponent {
+export class UserComponent implements OnInit {
   showDropdown: boolean = false;
   listOfData: any[] = [];
 
@@ -18,6 +18,10 @@ export class UserComponent {
     private msg: NzMessageService,
     private _modalService: NzModalService
   ) {}
+
+  ngOnInit(): void {
+    throw new Error('Method not implemented.');
+  }
 
   toggleDropdown() {
     this.showDropdown = !this.showDropdown;
