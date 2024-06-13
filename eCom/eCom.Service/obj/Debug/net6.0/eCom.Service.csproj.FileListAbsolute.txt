@@ -27,8 +27,9 @@ D:\Coderkechuyen\eCommerce\eCom\eCom.Service\obj\Debug\net6.0\eCom.Service.Gener
 D:\Coderkechuyen\eCommerce\eCom\eCom.Service\obj\Debug\net6.0\eCom.Service.AssemblyInfoInputs.cache
 D:\Coderkechuyen\eCommerce\eCom\eCom.Service\obj\Debug\net6.0\eCom.Service.AssemblyInfo.cs
 D:\Coderkechuyen\eCommerce\eCom\eCom.Service\obj\Debug\net6.0\eCom.Service.csproj.CoreCompileInputs.cache
-D:\Coderkechuyen\eCommerce\eCom\eCom.Service\obj\Debug\net6.0\eCom.Service.csproj.CopyComplete
 D:\Coderkechuyen\eCommerce\eCom\eCom.Service\obj\Debug\net6.0\eCom.Service.dll
 D:\Coderkechuyen\eCommerce\eCom\eCom.Service\obj\Debug\net6.0\refint\eCom.Service.dll
 D:\Coderkechuyen\eCommerce\eCom\eCom.Service\obj\Debug\net6.0\eCom.Service.pdb
 D:\Coderkechuyen\eCommerce\eCom\eCom.Service\obj\Debug\net6.0\ref\eCom.Service.dll
+D:\Coderkechuyen\eCommerce\eCom\eCom.Service\obj\Debug\net6.0\eCom.Service.sourcelink.json
+D:\Coderkechuyen\eCommerce\eCom\eCom.Service\obj\Debug\net6.0\eCom.Ser.573622B4.Up2Date

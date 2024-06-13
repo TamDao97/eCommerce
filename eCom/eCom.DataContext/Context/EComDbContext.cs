@@ -5,13 +5,14 @@ using System.Text;
 using System.Threading.Tasks;
 using eCom.DataContext.Entity;
 using eCom.DataContext.Entity.OrderSite;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
 namespace eCom.DataContext.Context
 {
-    public class EComDbContext : DbContext
+    public class EComDbContext : IdentityDbContext
     {
-        public EComDbContext(DbContextOptions options) : base(options)
+        public EComDbContext(DbContextOptions<EComDbContext> options) : base(options)
         {
         }
 
