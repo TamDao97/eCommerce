@@ -1,5 +1,7 @@
 ﻿using eCom.DataContext.Context;
 using eCom.DataContext.UnitOfWork;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 

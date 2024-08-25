@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Coderkechuyen\\eCommerce\\eCom\\eCom.DataContext\\eCom.DataContext.csproj": {}
+    "D:\\Coderkechuyen\\TDCSolution\\eCom\\eCom.DataContext\\eCom.DataContext.csproj": {}
   },
   "projects": {
-    "D:\\Coderkechuyen\\eCommerce\\eCom\\eCom.DataContext\\eCom.DataContext.csproj": {
+    "D:\\Coderkechuyen\\TDCSolution\\eCom\\eCom.DataContext\\eCom.DataContext.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Coderkechuyen\\eCommerce\\eCom\\eCom.DataContext\\eCom.DataContext.csproj",
+        "projectUniqueName": "D:\\Coderkechuyen\\TDCSolution\\eCom\\eCom.DataContext\\eCom.DataContext.csproj",
         "projectName": "eCom.DataContext",
-        "projectPath": "D:\\Coderkechuyen\\eCommerce\\eCom\\eCom.DataContext\\eCom.DataContext.csproj",
+        "projectPath": "D:\\Coderkechuyen\\TDCSolution\\eCom\\eCom.DataContext\\eCom.DataContext.csproj",
         "packagesPath": "C:\\Users\\tamdc\\.nuget\\packages\\",
-        "outputPath": "D:\\Coderkechuyen\\eCommerce\\eCom\\eCom.DataContext\\obj\\",
+        "outputPath": "D:\\Coderkechuyen\\TDCSolution\\eCom\\eCom.DataContext\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\tamdc\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "net8.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -26,87 +26,8 @@
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
-            "projectReferences": {
-              "D:\\Coderkechuyen\\eCommerce\\eCom\\eCom.Lib\\Lib.csproj": {
-                "projectPath": "D:\\Coderkechuyen\\eCommerce\\eCom\\eCom.Lib\\Lib.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
-        }
-      },
-      "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
-          "dependencies": {
-            "Microsoft.EntityFrameworkCore.SqlServer": {
-              "target": "Package",
-              "version": "[6.0.31, )"
-            },
-            "Microsoft.Extensions.Configuration.Abstractions": {
-              "target": "Package",
-              "version": "[7.0.0, )"
-            },
-            "Microsoft.Extensions.DependencyInjection.Abstractions": {
-              "target": "Package",
-              "version": "[7.0.0, )"
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "D:\\Coderkechuyen\\eCommerce\\eCom\\eCom.Lib\\Lib.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "D:\\Coderkechuyen\\eCommerce\\eCom\\eCom.Lib\\Lib.csproj",
-        "projectName": "Lib",
-        "projectPath": "D:\\Coderkechuyen\\eCommerce\\eCom\\eCom.Lib\\Lib.csproj",
-        "packagesPath": "C:\\Users\\tamdc\\.nuget\\packages\\",
-        "outputPath": "D:\\Coderkechuyen\\eCommerce\\eCom\\eCom.Lib\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\tamdc\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net6.0"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {}
           }
         },
@@ -122,20 +43,16 @@
         }
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
-            "AutoMapper": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[12.0.1, )"
+              "version": "[8.0.8, )"
             },
-            "BCrypt.Net-Next": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[4.0.3, )"
-            },
-            "System.IdentityModel.Tokens.Jwt": {
-              "target": "Package",
-              "version": "[6.10.0, )"
+              "version": "[8.0.8, )"
             }
           },
           "imports": [
@@ -154,7 +71,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,54 +1,109 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Coderkechuyen\\eCommerce\\eCom\\",
+  "WorkspaceRootPath": "D:\\Coderkechuyen\\TDCSolution\\eCom\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D4282389-502B-49DE-814F-4025C8837180}|eCom.Lib\\Lib.csproj|d:\\coderkechuyen\\ecommerce\\ecom\\ecom.lib\\helper\\jwthelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D4282389-502B-49DE-814F-4025C8837180}|eCom.Lib\\Lib.csproj|solutionrelative:ecom.lib\\helper\\jwthelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6A9EFCB0-A92E-4DF3-93E3-B8EE97888622}|eCom.Service\\eCom.Service.csproj|d:\\coderkechuyen\\tdcsolution\\ecom\\ecom.service\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A9EFCB0-A92E-4DF3-93E3-B8EE97888622}|eCom.Service\\eCom.Service.csproj|solutionrelative:ecom.service\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2B5F2C7F-71B6-4DF7-A68C-6F49D322A6BD}|eCom.DataContext\\eCom.DataContext.csproj|d:\\coderkechuyen\\ecommerce\\ecom\\ecom.datacontext\\config\\serviceregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B5F2C7F-71B6-4DF7-A68C-6F49D322A6BD}|eCom.DataContext\\eCom.DataContext.csproj|solutionrelative:ecom.datacontext\\config\\serviceregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2B5F2C7F-71B6-4DF7-A68C-6F49D322A6BD}|eCom.DataContext\\eCom.DataContext.csproj|d:\\coderkechuyen\\tdcsolution\\ecom\\ecom.datacontext\\ecom.datacontext.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{2B5F2C7F-71B6-4DF7-A68C-6F49D322A6BD}|eCom.DataContext\\eCom.DataContext.csproj|solutionrelative:ecom.datacontext\\ecom.datacontext.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{219973A4-00D5-4664-A5F5-29672BB6A980}|eCom.API\\eCom.API.csproj|d:\\coderkechuyen\\ecommerce\\ecom\\ecom.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{219973A4-00D5-4664-A5F5-29672BB6A980}|eCom.API\\eCom.API.csproj|d:\\coderkechuyen\\tdcsolution\\ecom\\ecom.api\\ecom.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{219973A4-00D5-4664-A5F5-29672BB6A980}|eCom.API\\eCom.API.csproj|solutionrelative:ecom.api\\ecom.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A9EFCB0-A92E-4DF3-93E3-B8EE97888622}|eCom.Service\\eCom.Service.csproj|d:\\coderkechuyen\\tdcsolution\\ecom\\ecom.service\\ecom.service.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{6A9EFCB0-A92E-4DF3-93E3-B8EE97888622}|eCom.Service\\eCom.Service.csproj|solutionrelative:ecom.service\\ecom.service.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A9EFCB0-A92E-4DF3-93E3-B8EE97888622}|eCom.Service\\eCom.Service.csproj|d:\\coderkechuyen\\tdcsolution\\ecom\\ecom.service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A9EFCB0-A92E-4DF3-93E3-B8EE97888622}|eCom.Service\\eCom.Service.csproj|solutionrelative:ecom.service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{219973A4-00D5-4664-A5F5-29672BB6A980}|eCom.API\\eCom.API.csproj|d:\\coderkechuyen\\tdcsolution\\ecom\\ecom.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{219973A4-00D5-4664-A5F5-29672BB6A980}|eCom.API\\eCom.API.csproj|solutionrelative:ecom.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A9EFCB0-A92E-4DF3-93E3-B8EE97888622}|eCom.Service\\eCom.Service.csproj|d:\\coderkechuyen\\tdcsolution\\ecom\\ecom.service\\customerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A9EFCB0-A92E-4DF3-93E3-B8EE97888622}|eCom.Service\\eCom.Service.csproj|solutionrelative:ecom.service\\customerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{219973A4-00D5-4664-A5F5-29672BB6A980}|eCom.API\\eCom.API.csproj|d:\\coderkechuyen\\tdcsolution\\ecom\\ecom.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{219973A4-00D5-4664-A5F5-29672BB6A980}|eCom.API\\eCom.API.csproj|solutionrelative:ecom.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2B5F2C7F-71B6-4DF7-A68C-6F49D322A6BD}|eCom.DataContext\\eCom.DataContext.csproj|d:\\coderkechuyen\\ecommerce\\ecom\\ecom.datacontext\\entity\\ordersite\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{219973A4-00D5-4664-A5F5-29672BB6A980}|eCom.API\\eCom.API.csproj|d:\\coderkechuyen\\tdcsolution\\ecom\\ecom.api\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{219973A4-00D5-4664-A5F5-29672BB6A980}|eCom.API\\eCom.API.csproj|solutionrelative:ecom.api\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B5F2C7F-71B6-4DF7-A68C-6F49D322A6BD}|eCom.DataContext\\eCom.DataContext.csproj|d:\\coderkechuyen\\tdcsolution\\ecom\\ecom.datacontext\\config\\serviceregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B5F2C7F-71B6-4DF7-A68C-6F49D322A6BD}|eCom.DataContext\\eCom.DataContext.csproj|solutionrelative:ecom.datacontext\\config\\serviceregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A9EFCB0-A92E-4DF3-93E3-B8EE97888622}|eCom.Service\\eCom.Service.csproj|d:\\coderkechuyen\\tdcsolution\\ecom\\ecom.service\\roleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A9EFCB0-A92E-4DF3-93E3-B8EE97888622}|eCom.Service\\eCom.Service.csproj|solutionrelative:ecom.service\\roleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B5F2C7F-71B6-4DF7-A68C-6F49D322A6BD}|eCom.DataContext\\eCom.DataContext.csproj|d:\\coderkechuyen\\tdcsolution\\ecom\\ecom.datacontext\\enum\\enums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B5F2C7F-71B6-4DF7-A68C-6F49D322A6BD}|eCom.DataContext\\eCom.DataContext.csproj|solutionrelative:ecom.datacontext\\enum\\enums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B5F2C7F-71B6-4DF7-A68C-6F49D322A6BD}|eCom.DataContext\\eCom.DataContext.csproj|d:\\coderkechuyen\\tdcsolution\\ecom\\ecom.datacontext\\entity\\salesorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B5F2C7F-71B6-4DF7-A68C-6F49D322A6BD}|eCom.DataContext\\eCom.DataContext.csproj|solutionrelative:ecom.datacontext\\entity\\salesorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B5F2C7F-71B6-4DF7-A68C-6F49D322A6BD}|eCom.DataContext\\eCom.DataContext.csproj|d:\\coderkechuyen\\tdcsolution\\ecom\\ecom.datacontext\\entity\\salesorderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B5F2C7F-71B6-4DF7-A68C-6F49D322A6BD}|eCom.DataContext\\eCom.DataContext.csproj|solutionrelative:ecom.datacontext\\entity\\salesorderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B5F2C7F-71B6-4DF7-A68C-6F49D322A6BD}|eCom.DataContext\\eCom.DataContext.csproj|d:\\coderkechuyen\\tdcsolution\\ecom\\ecom.datacontext\\entity\\receipt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B5F2C7F-71B6-4DF7-A68C-6F49D322A6BD}|eCom.DataContext\\eCom.DataContext.csproj|solutionrelative:ecom.datacontext\\entity\\receipt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B5F2C7F-71B6-4DF7-A68C-6F49D322A6BD}|eCom.DataContext\\eCom.DataContext.csproj|d:\\coderkechuyen\\tdcsolution\\ecom\\ecom.datacontext\\entity\\purchaseorderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B5F2C7F-71B6-4DF7-A68C-6F49D322A6BD}|eCom.DataContext\\eCom.DataContext.csproj|solutionrelative:ecom.datacontext\\entity\\purchaseorderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B5F2C7F-71B6-4DF7-A68C-6F49D322A6BD}|eCom.DataContext\\eCom.DataContext.csproj|d:\\coderkechuyen\\tdcsolution\\ecom\\ecom.datacontext\\entity\\purchaseorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B5F2C7F-71B6-4DF7-A68C-6F49D322A6BD}|eCom.DataContext\\eCom.DataContext.csproj|solutionrelative:ecom.datacontext\\entity\\purchaseorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B5F2C7F-71B6-4DF7-A68C-6F49D322A6BD}|eCom.DataContext\\eCom.DataContext.csproj|d:\\coderkechuyen\\tdcsolution\\ecom\\ecom.datacontext\\entity\\ordersite\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2B5F2C7F-71B6-4DF7-A68C-6F49D322A6BD}|eCom.DataContext\\eCom.DataContext.csproj|solutionrelative:ecom.datacontext\\entity\\ordersite\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2B5F2C7F-71B6-4DF7-A68C-6F49D322A6BD}|eCom.DataContext\\eCom.DataContext.csproj|d:\\coderkechuyen\\ecommerce\\ecom\\ecom.datacontext\\entity\\ordersite\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2B5F2C7F-71B6-4DF7-A68C-6F49D322A6BD}|eCom.DataContext\\eCom.DataContext.csproj|d:\\coderkechuyen\\tdcsolution\\ecom\\ecom.datacontext\\entity\\ordersite\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2B5F2C7F-71B6-4DF7-A68C-6F49D322A6BD}|eCom.DataContext\\eCom.DataContext.csproj|solutionrelative:ecom.datacontext\\entity\\ordersite\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2B5F2C7F-71B6-4DF7-A68C-6F49D322A6BD}|eCom.DataContext\\eCom.DataContext.csproj|d:\\coderkechuyen\\ecommerce\\ecom\\ecom.datacontext\\entity\\ordersite\\image.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2B5F2C7F-71B6-4DF7-A68C-6F49D322A6BD}|eCom.DataContext\\eCom.DataContext.csproj|d:\\coderkechuyen\\tdcsolution\\ecom\\ecom.datacontext\\entity\\ordersite\\image.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2B5F2C7F-71B6-4DF7-A68C-6F49D322A6BD}|eCom.DataContext\\eCom.DataContext.csproj|solutionrelative:ecom.datacontext\\entity\\ordersite\\image.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2B5F2C7F-71B6-4DF7-A68C-6F49D322A6BD}|eCom.DataContext\\eCom.DataContext.csproj|d:\\coderkechuyen\\ecommerce\\ecom\\ecom.datacontext\\entity\\ordersite\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2B5F2C7F-71B6-4DF7-A68C-6F49D322A6BD}|eCom.DataContext\\eCom.DataContext.csproj|d:\\coderkechuyen\\tdcsolution\\ecom\\ecom.datacontext\\entity\\ordersite\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2B5F2C7F-71B6-4DF7-A68C-6F49D322A6BD}|eCom.DataContext\\eCom.DataContext.csproj|solutionrelative:ecom.datacontext\\entity\\ordersite\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2B5F2C7F-71B6-4DF7-A68C-6F49D322A6BD}|eCom.DataContext\\eCom.DataContext.csproj|d:\\coderkechuyen\\ecommerce\\ecom\\ecom.datacontext\\entity\\ordersite\\producthistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2B5F2C7F-71B6-4DF7-A68C-6F49D322A6BD}|eCom.DataContext\\eCom.DataContext.csproj|d:\\coderkechuyen\\tdcsolution\\ecom\\ecom.datacontext\\entity\\ordersite\\producthistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2B5F2C7F-71B6-4DF7-A68C-6F49D322A6BD}|eCom.DataContext\\eCom.DataContext.csproj|solutionrelative:ecom.datacontext\\entity\\ordersite\\producthistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2B5F2C7F-71B6-4DF7-A68C-6F49D322A6BD}|eCom.DataContext\\eCom.DataContext.csproj|d:\\coderkechuyen\\ecommerce\\ecom\\ecom.datacontext\\entity\\ordersite\\productproperties.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2B5F2C7F-71B6-4DF7-A68C-6F49D322A6BD}|eCom.DataContext\\eCom.DataContext.csproj|d:\\coderkechuyen\\tdcsolution\\ecom\\ecom.datacontext\\entity\\ordersite\\productproperties.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2B5F2C7F-71B6-4DF7-A68C-6F49D322A6BD}|eCom.DataContext\\eCom.DataContext.csproj|solutionrelative:ecom.datacontext\\entity\\ordersite\\productproperties.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2B5F2C7F-71B6-4DF7-A68C-6F49D322A6BD}|eCom.DataContext\\eCom.DataContext.csproj|d:\\coderkechuyen\\ecommerce\\ecom\\ecom.datacontext\\entity\\ordersite\\properties.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2B5F2C7F-71B6-4DF7-A68C-6F49D322A6BD}|eCom.DataContext\\eCom.DataContext.csproj|d:\\coderkechuyen\\tdcsolution\\ecom\\ecom.datacontext\\entity\\ordersite\\properties.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2B5F2C7F-71B6-4DF7-A68C-6F49D322A6BD}|eCom.DataContext\\eCom.DataContext.csproj|solutionrelative:ecom.datacontext\\entity\\ordersite\\properties.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2B5F2C7F-71B6-4DF7-A68C-6F49D322A6BD}|eCom.DataContext\\eCom.DataContext.csproj|d:\\coderkechuyen\\ecommerce\\ecom\\ecom.datacontext\\entity\\ordersite\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2B5F2C7F-71B6-4DF7-A68C-6F49D322A6BD}|eCom.DataContext\\eCom.DataContext.csproj|d:\\coderkechuyen\\tdcsolution\\ecom\\ecom.datacontext\\entity\\ordersite\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2B5F2C7F-71B6-4DF7-A68C-6F49D322A6BD}|eCom.DataContext\\eCom.DataContext.csproj|solutionrelative:ecom.datacontext\\entity\\ordersite\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2B5F2C7F-71B6-4DF7-A68C-6F49D322A6BD}|eCom.DataContext\\eCom.DataContext.csproj|d:\\coderkechuyen\\ecommerce\\ecom\\ecom.datacontext\\entity\\salesorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B5F2C7F-71B6-4DF7-A68C-6F49D322A6BD}|eCom.DataContext\\eCom.DataContext.csproj|solutionrelative:ecom.datacontext\\entity\\salesorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,7 +113,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -78,159 +133,314 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "JwtHelper.cs",
-              "DocumentMoniker": "D:\\Coderkechuyen\\eCommerce\\eCom\\eCom.Lib\\Helper\\JwtHelper.cs",
-              "RelativeDocumentMoniker": "eCom.Lib\\Helper\\JwtHelper.cs",
-              "ToolTip": "D:\\Coderkechuyen\\eCommerce\\eCom\\eCom.Lib\\Helper\\JwtHelper.cs",
-              "RelativeToolTip": "eCom.Lib\\Helper\\JwtHelper.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAUAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T16:30:49.411Z",
-              "EditorCaption": ""
+              "DocumentIndex": 3,
+              "Title": "eCom.Service.csproj",
+              "DocumentMoniker": "D:\\Coderkechuyen\\TDCSolution\\eCom\\eCom.Service\\eCom.Service.csproj",
+              "RelativeDocumentMoniker": "eCom.Service\\eCom.Service.csproj",
+              "ToolTip": "D:\\Coderkechuyen\\TDCSolution\\eCom\\eCom.Service\\eCom.Service.csproj",
+              "RelativeToolTip": "eCom.Service\\eCom.Service.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-08-24T16:52:19.753Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ServiceRegister.cs",
-              "DocumentMoniker": "D:\\Coderkechuyen\\eCommerce\\eCom\\eCom.DataContext\\Config\\ServiceRegister.cs",
-              "RelativeDocumentMoniker": "eCom.DataContext\\Config\\ServiceRegister.cs",
-              "ToolTip": "D:\\Coderkechuyen\\eCommerce\\eCom\\eCom.DataContext\\Config\\ServiceRegister.cs",
-              "RelativeToolTip": "eCom.DataContext\\Config\\ServiceRegister.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-12T15:39:04.399Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Coderkechuyen\\eCommerce\\eCom\\eCom.API\\Program.cs",
-              "RelativeDocumentMoniker": "eCom.API\\Program.cs",
-              "ToolTip": "D:\\Coderkechuyen\\eCommerce\\eCom\\eCom.API\\Program.cs",
-              "RelativeToolTip": "eCom.API\\Program.cs",
-              "ViewState": "AQIAAB4AAAAAAAAAAIBJwC0AAAAlAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-12T15:38:30.131Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Role.cs",
-              "DocumentMoniker": "D:\\Coderkechuyen\\eCommerce\\eCom\\eCom.DataContext\\Entity\\OrderSite\\Role.cs",
-              "RelativeDocumentMoniker": "eCom.DataContext\\Entity\\OrderSite\\Role.cs",
-              "ToolTip": "D:\\Coderkechuyen\\eCommerce\\eCom\\eCom.DataContext\\Entity\\OrderSite\\Role.cs",
-              "RelativeToolTip": "eCom.DataContext\\Entity\\OrderSite\\Role.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAvAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-20T15:30:18.506Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Image.cs",
-              "DocumentMoniker": "D:\\Coderkechuyen\\eCommerce\\eCom\\eCom.DataContext\\Entity\\OrderSite\\Image.cs",
-              "RelativeDocumentMoniker": "eCom.DataContext\\Entity\\OrderSite\\Image.cs",
-              "ToolTip": "D:\\Coderkechuyen\\eCommerce\\eCom\\eCom.DataContext\\Entity\\OrderSite\\Image.cs",
-              "RelativeToolTip": "eCom.DataContext\\Entity\\OrderSite\\Image.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAIBZwBUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-20T15:18:33.163Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "UserRole.cs",
-              "DocumentMoniker": "D:\\Coderkechuyen\\eCommerce\\eCom\\eCom.DataContext\\Entity\\OrderSite\\UserRole.cs",
-              "RelativeDocumentMoniker": "eCom.DataContext\\Entity\\OrderSite\\UserRole.cs",
-              "ToolTip": "D:\\Coderkechuyen\\eCommerce\\eCom\\eCom.DataContext\\Entity\\OrderSite\\UserRole.cs",
-              "RelativeToolTip": "eCom.DataContext\\Entity\\OrderSite\\UserRole.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-20T15:31:39.149Z",
-              "EditorCaption": ""
+              "Title": "eCom.DataContext.csproj",
+              "DocumentMoniker": "D:\\Coderkechuyen\\TDCSolution\\eCom\\eCom.DataContext\\eCom.DataContext.csproj",
+              "RelativeDocumentMoniker": "eCom.DataContext\\eCom.DataContext.csproj",
+              "ToolTip": "D:\\Coderkechuyen\\TDCSolution\\eCom\\eCom.DataContext\\eCom.DataContext.csproj",
+              "RelativeToolTip": "eCom.DataContext\\eCom.DataContext.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-08-24T16:52:03.526Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "Properties.cs",
-              "DocumentMoniker": "D:\\Coderkechuyen\\eCommerce\\eCom\\eCom.DataContext\\Entity\\OrderSite\\Properties.cs",
-              "RelativeDocumentMoniker": "eCom.DataContext\\Entity\\OrderSite\\Properties.cs",
-              "ToolTip": "D:\\Coderkechuyen\\eCommerce\\eCom\\eCom.DataContext\\Entity\\OrderSite\\Properties.cs",
-              "RelativeToolTip": "eCom.DataContext\\Entity\\OrderSite\\Properties.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-20T15:17:12.51Z",
-              "EditorCaption": ""
+              "Title": "Dockerfile",
+              "DocumentMoniker": "D:\\Coderkechuyen\\TDCSolution\\eCom\\eCom.API\\Dockerfile",
+              "RelativeDocumentMoniker": "eCom.API\\Dockerfile",
+              "ToolTip": "D:\\Coderkechuyen\\TDCSolution\\eCom\\eCom.API\\Dockerfile",
+              "RelativeToolTip": "eCom.API\\Dockerfile",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-08-24T16:45:19.833Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ProductProperties.cs",
-              "DocumentMoniker": "D:\\Coderkechuyen\\eCommerce\\eCom\\eCom.DataContext\\Entity\\OrderSite\\ProductProperties.cs",
-              "RelativeDocumentMoniker": "eCom.DataContext\\Entity\\OrderSite\\ProductProperties.cs",
-              "ToolTip": "D:\\Coderkechuyen\\eCommerce\\eCom\\eCom.DataContext\\Entity\\OrderSite\\ProductProperties.cs",
-              "RelativeToolTip": "eCom.DataContext\\Entity\\OrderSite\\ProductProperties.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "DocumentIndex": 5,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\Coderkechuyen\\TDCSolution\\eCom\\eCom.API\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "eCom.API\\Controllers\\AuthController.cs",
+              "ToolTip": "D:\\Coderkechuyen\\TDCSolution\\eCom\\eCom.API\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "eCom.API\\Controllers\\AuthController.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAEwA8AAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-20T15:16:39.594Z",
+              "WhenOpened": "2024-08-24T16:41:39.915Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "D:\\Coderkechuyen\\TDCSolution\\eCom\\eCom.Service\\AuthService.cs",
+              "RelativeDocumentMoniker": "eCom.Service\\AuthService.cs",
+              "ToolTip": "D:\\Coderkechuyen\\TDCSolution\\eCom\\eCom.Service\\AuthService.cs",
+              "RelativeToolTip": "eCom.Service\\AuthService.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAowBAAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-24T16:40:50.268Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "ProductHistory.cs",
-              "DocumentMoniker": "D:\\Coderkechuyen\\eCommerce\\eCom\\eCom.DataContext\\Entity\\OrderSite\\ProductHistory.cs",
-              "RelativeDocumentMoniker": "eCom.DataContext\\Entity\\OrderSite\\ProductHistory.cs",
-              "ToolTip": "D:\\Coderkechuyen\\eCommerce\\eCom\\eCom.DataContext\\Entity\\OrderSite\\ProductHistory.cs",
-              "RelativeToolTip": "eCom.DataContext\\Entity\\OrderSite\\ProductHistory.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-20T15:18:01.575Z",
-              "EditorCaption": ""
+              "Title": "Microsoft.Common.CurrentVersion.targets",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ViewState": "AQIAAE4HAAAAAAAAAAAtwFYHAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2024-08-24T16:51:48.856Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Category.cs",
-              "DocumentMoniker": "D:\\Coderkechuyen\\eCommerce\\eCom\\eCom.DataContext\\Entity\\OrderSite\\Category.cs",
-              "RelativeDocumentMoniker": "eCom.DataContext\\Entity\\OrderSite\\Category.cs",
-              "ToolTip": "D:\\Coderkechuyen\\eCommerce\\eCom\\eCom.DataContext\\Entity\\OrderSite\\Category.cs",
-              "RelativeToolTip": "eCom.DataContext\\Entity\\OrderSite\\Category.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-20T15:32:10.522Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "SalesOrder.cs",
-              "DocumentMoniker": "D:\\Coderkechuyen\\eCommerce\\eCom\\eCom.DataContext\\Entity\\SalesOrder.cs",
-              "RelativeDocumentMoniker": "eCom.DataContext\\Entity\\SalesOrder.cs",
-              "ToolTip": "D:\\Coderkechuyen\\eCommerce\\eCom\\eCom.DataContext\\Entity\\SalesOrder.cs",
-              "RelativeToolTip": "eCom.DataContext\\Entity\\SalesOrder.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-20T15:18:18.496Z",
-              "EditorCaption": ""
+              "DocumentIndex": 2,
+              "Title": "eCom.API.csproj",
+              "DocumentMoniker": "D:\\Coderkechuyen\\TDCSolution\\eCom\\eCom.API\\eCom.API.csproj",
+              "RelativeDocumentMoniker": "eCom.API\\eCom.API.csproj",
+              "ToolTip": "D:\\Coderkechuyen\\TDCSolution\\eCom\\eCom.API\\eCom.API.csproj",
+              "RelativeToolTip": "eCom.API\\eCom.API.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-08-24T16:18:03.455Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "CustomerService.cs",
+              "DocumentMoniker": "D:\\Coderkechuyen\\TDCSolution\\eCom\\eCom.Service\\CustomerService.cs",
+              "RelativeDocumentMoniker": "eCom.Service\\CustomerService.cs",
+              "ToolTip": "D:\\Coderkechuyen\\TDCSolution\\eCom\\eCom.Service\\CustomerService.cs",
+              "RelativeToolTip": "eCom.Service\\CustomerService.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAEwBoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-04T01:03:42.238Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "D:\\Coderkechuyen\\TDCSolution\\eCom\\eCom.Service\\UserService.cs",
+              "RelativeDocumentMoniker": "eCom.Service\\UserService.cs",
+              "ToolTip": "D:\\Coderkechuyen\\TDCSolution\\eCom\\eCom.Service\\UserService.cs",
+              "RelativeToolTip": "eCom.Service\\UserService.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAnwBMAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-04T01:03:37.172Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ServiceRegister.cs",
+              "DocumentMoniker": "D:\\Coderkechuyen\\TDCSolution\\eCom\\eCom.DataContext\\Config\\ServiceRegister.cs",
+              "RelativeDocumentMoniker": "eCom.DataContext\\Config\\ServiceRegister.cs",
+              "ToolTip": "D:\\Coderkechuyen\\TDCSolution\\eCom\\eCom.DataContext\\Config\\ServiceRegister.cs",
+              "RelativeToolTip": "eCom.DataContext\\Config\\ServiceRegister.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAawBIAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T15:39:04.399Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Receipt.cs",
+              "DocumentMoniker": "D:\\Coderkechuyen\\TDCSolution\\eCom\\eCom.DataContext\\Entity\\Receipt.cs",
+              "RelativeDocumentMoniker": "eCom.DataContext\\Entity\\Receipt.cs",
+              "ToolTip": "D:\\Coderkechuyen\\TDCSolution\\eCom\\eCom.DataContext\\Entity\\Receipt.cs",
+              "RelativeToolTip": "eCom.DataContext\\Entity\\Receipt.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBZwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T14:22:21.148Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "SalesOrderDetail.cs",
+              "DocumentMoniker": "D:\\Coderkechuyen\\TDCSolution\\eCom\\eCom.DataContext\\Entity\\SalesOrderDetail.cs",
+              "RelativeDocumentMoniker": "eCom.DataContext\\Entity\\SalesOrderDetail.cs",
+              "ToolTip": "D:\\Coderkechuyen\\TDCSolution\\eCom\\eCom.DataContext\\Entity\\SalesOrderDetail.cs",
+              "RelativeToolTip": "eCom.DataContext\\Entity\\SalesOrderDetail.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T14:22:39.363Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Coderkechuyen\\TDCSolution\\eCom\\eCom.API\\Program.cs",
+              "RelativeDocumentMoniker": "eCom.API\\Program.cs",
+              "ToolTip": "D:\\Coderkechuyen\\TDCSolution\\eCom\\eCom.API\\Program.cs",
+              "RelativeToolTip": "eCom.API\\Program.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAIBJwEEAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T15:38:30.131Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "RoleService.cs",
+              "DocumentMoniker": "D:\\Coderkechuyen\\TDCSolution\\eCom\\eCom.Service\\RoleService.cs",
+              "RelativeDocumentMoniker": "eCom.Service\\RoleService.cs",
+              "ToolTip": "D:\\Coderkechuyen\\TDCSolution\\eCom\\eCom.Service\\RoleService.cs",
+              "RelativeToolTip": "eCom.Service\\RoleService.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAIBZwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-04T01:03:39.396Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "PurchaseOrderDetail.cs",
+              "DocumentMoniker": "D:\\Coderkechuyen\\TDCSolution\\eCom\\eCom.DataContext\\Entity\\PurchaseOrderDetail.cs",
+              "RelativeDocumentMoniker": "eCom.DataContext\\Entity\\PurchaseOrderDetail.cs",
+              "ToolTip": "D:\\Coderkechuyen\\TDCSolution\\eCom\\eCom.DataContext\\Entity\\PurchaseOrderDetail.cs",
+              "RelativeToolTip": "eCom.DataContext\\Entity\\PurchaseOrderDetail.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T14:22:19.306Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "PurchaseOrder.cs",
+              "DocumentMoniker": "D:\\Coderkechuyen\\TDCSolution\\eCom\\eCom.DataContext\\Entity\\PurchaseOrder.cs",
+              "RelativeDocumentMoniker": "eCom.DataContext\\Entity\\PurchaseOrder.cs",
+              "ToolTip": "D:\\Coderkechuyen\\TDCSolution\\eCom\\eCom.DataContext\\Entity\\PurchaseOrder.cs",
+              "RelativeToolTip": "eCom.DataContext\\Entity\\PurchaseOrder.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T14:22:15.341Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Enums.cs",
+              "DocumentMoniker": "D:\\Coderkechuyen\\TDCSolution\\eCom\\eCom.DataContext\\Enum\\Enums.cs",
+              "RelativeDocumentMoniker": "eCom.DataContext\\Enum\\Enums.cs",
+              "ToolTip": "D:\\Coderkechuyen\\TDCSolution\\eCom\\eCom.DataContext\\Enum\\Enums.cs",
+              "RelativeToolTip": "eCom.DataContext\\Enum\\Enums.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAgwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T14:23:08.092Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Role.cs",
+              "DocumentMoniker": "D:\\Coderkechuyen\\TDCSolution\\eCom\\eCom.DataContext\\Entity\\OrderSite\\Role.cs",
+              "RelativeDocumentMoniker": "eCom.DataContext\\Entity\\OrderSite\\Role.cs",
+              "ToolTip": "D:\\Coderkechuyen\\TDCSolution\\eCom\\eCom.DataContext\\Entity\\OrderSite\\Role.cs",
+              "RelativeToolTip": "eCom.DataContext\\Entity\\OrderSite\\Role.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-20T15:30:18.506Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "SalesOrder.cs",
+              "DocumentMoniker": "D:\\Coderkechuyen\\TDCSolution\\eCom\\eCom.DataContext\\Entity\\SalesOrder.cs",
+              "RelativeDocumentMoniker": "eCom.DataContext\\Entity\\SalesOrder.cs",
+              "ToolTip": "D:\\Coderkechuyen\\TDCSolution\\eCom\\eCom.DataContext\\Entity\\SalesOrder.cs",
+              "RelativeToolTip": "eCom.DataContext\\Entity\\SalesOrder.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBZwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-20T15:18:18.496Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Image.cs",
+              "DocumentMoniker": "D:\\Coderkechuyen\\TDCSolution\\eCom\\eCom.DataContext\\Entity\\OrderSite\\Image.cs",
+              "RelativeDocumentMoniker": "eCom.DataContext\\Entity\\OrderSite\\Image.cs",
+              "ToolTip": "D:\\Coderkechuyen\\TDCSolution\\eCom\\eCom.DataContext\\Entity\\OrderSite\\Image.cs",
+              "RelativeToolTip": "eCom.DataContext\\Entity\\OrderSite\\Image.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBZwBUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-20T15:18:33.163Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "UserRole.cs",
+              "DocumentMoniker": "D:\\Coderkechuyen\\TDCSolution\\eCom\\eCom.DataContext\\Entity\\OrderSite\\UserRole.cs",
+              "RelativeDocumentMoniker": "eCom.DataContext\\Entity\\OrderSite\\UserRole.cs",
+              "ToolTip": "D:\\Coderkechuyen\\TDCSolution\\eCom\\eCom.DataContext\\Entity\\OrderSite\\UserRole.cs",
+              "RelativeToolTip": "eCom.DataContext\\Entity\\OrderSite\\UserRole.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-20T15:31:39.149Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Properties.cs",
+              "DocumentMoniker": "D:\\Coderkechuyen\\TDCSolution\\eCom\\eCom.DataContext\\Entity\\OrderSite\\Properties.cs",
+              "RelativeDocumentMoniker": "eCom.DataContext\\Entity\\OrderSite\\Properties.cs",
+              "ToolTip": "D:\\Coderkechuyen\\TDCSolution\\eCom\\eCom.DataContext\\Entity\\OrderSite\\Properties.cs",
+              "RelativeToolTip": "eCom.DataContext\\Entity\\OrderSite\\Properties.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-20T15:17:12.51Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ProductProperties.cs",
+              "DocumentMoniker": "D:\\Coderkechuyen\\TDCSolution\\eCom\\eCom.DataContext\\Entity\\OrderSite\\ProductProperties.cs",
+              "RelativeDocumentMoniker": "eCom.DataContext\\Entity\\OrderSite\\ProductProperties.cs",
+              "ToolTip": "D:\\Coderkechuyen\\TDCSolution\\eCom\\eCom.DataContext\\Entity\\OrderSite\\ProductProperties.cs",
+              "RelativeToolTip": "eCom.DataContext\\Entity\\OrderSite\\ProductProperties.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-20T15:16:39.594Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ProductHistory.cs",
+              "DocumentMoniker": "D:\\Coderkechuyen\\TDCSolution\\eCom\\eCom.DataContext\\Entity\\OrderSite\\ProductHistory.cs",
+              "RelativeDocumentMoniker": "eCom.DataContext\\Entity\\OrderSite\\ProductHistory.cs",
+              "ToolTip": "D:\\Coderkechuyen\\TDCSolution\\eCom\\eCom.DataContext\\Entity\\OrderSite\\ProductHistory.cs",
+              "RelativeToolTip": "eCom.DataContext\\Entity\\OrderSite\\ProductHistory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-20T15:18:01.575Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Category.cs",
+              "DocumentMoniker": "D:\\Coderkechuyen\\TDCSolution\\eCom\\eCom.DataContext\\Entity\\OrderSite\\Category.cs",
+              "RelativeDocumentMoniker": "eCom.DataContext\\Entity\\OrderSite\\Category.cs",
+              "ToolTip": "D:\\Coderkechuyen\\TDCSolution\\eCom\\eCom.DataContext\\Entity\\OrderSite\\Category.cs",
+              "RelativeToolTip": "eCom.DataContext\\Entity\\OrderSite\\Category.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-20T15:32:10.522Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
               "Title": "Product.cs",
-              "DocumentMoniker": "D:\\Coderkechuyen\\eCommerce\\eCom\\eCom.DataContext\\Entity\\OrderSite\\Product.cs",
+              "DocumentMoniker": "D:\\Coderkechuyen\\TDCSolution\\eCom\\eCom.DataContext\\Entity\\OrderSite\\Product.cs",
               "RelativeDocumentMoniker": "eCom.DataContext\\Entity\\OrderSite\\Product.cs",
-              "ToolTip": "D:\\Coderkechuyen\\eCommerce\\eCom\\eCom.DataContext\\Entity\\OrderSite\\Product.cs",
+              "ToolTip": "D:\\Coderkechuyen\\TDCSolution\\eCom\\eCom.DataContext\\Entity\\OrderSite\\Product.cs",
               "RelativeToolTip": "eCom.DataContext\\Entity\\OrderSite\\Product.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAIBJwBIAAABTAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-20T15:14:22.754Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-20T15:14:22.754Z"
             }
           ]
         }
