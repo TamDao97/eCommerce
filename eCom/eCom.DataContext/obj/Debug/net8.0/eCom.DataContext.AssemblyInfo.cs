@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("eCom.DataContext")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a357223e617b5315aa885c4c00e2ff137b181d50")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a4e613de0e8403b38859718141d94f6f77317cd1")]
 [assembly: System.Reflection.AssemblyProductAttribute("eCom.DataContext")]
 [assembly: System.Reflection.AssemblyTitleAttribute("eCom.DataContext")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

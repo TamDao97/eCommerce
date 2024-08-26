@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Coderkechuyen\\TDCSolution\\eCom\\eCom.DataContext\\eCom.DataContext.csproj": {}
+    "D:\\Coderkechuyen\\TDSolution\\eCom\\eCom.DataContext\\eCom.DataContext.csproj": {}
   },
   "projects": {
-    "D:\\Coderkechuyen\\TDCSolution\\eCom\\eCom.DataContext\\eCom.DataContext.csproj": {
+    "D:\\Coderkechuyen\\TDSolution\\eCom\\eCom.DataContext\\eCom.DataContext.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Coderkechuyen\\TDCSolution\\eCom\\eCom.DataContext\\eCom.DataContext.csproj",
+        "projectUniqueName": "D:\\Coderkechuyen\\TDSolution\\eCom\\eCom.DataContext\\eCom.DataContext.csproj",
         "projectName": "eCom.DataContext",
-        "projectPath": "D:\\Coderkechuyen\\TDCSolution\\eCom\\eCom.DataContext\\eCom.DataContext.csproj",
+        "projectPath": "D:\\Coderkechuyen\\TDSolution\\eCom\\eCom.DataContext\\eCom.DataContext.csproj",
         "packagesPath": "C:\\Users\\tamdc\\.nuget\\packages\\",
-        "outputPath": "D:\\Coderkechuyen\\TDCSolution\\eCom\\eCom.DataContext\\obj\\",
+        "outputPath": "D:\\Coderkechuyen\\TDSolution\\eCom\\eCom.DataContext\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\tamdc\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,50 +28,33 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "D:\\Coderkechuyen\\TDSolution\\eCom\\eCom.Lib\\Lib.csproj": {
+                "projectPath": "D:\\Coderkechuyen\\TDSolution\\eCom\\eCom.Lib\\Lib.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "dependencies": {
-            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[8.0.8, )"
-            },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
-              "target": "Package",
-              "version": "[8.0.8, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.411\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,0 +1,13 @@
+﻿using Reservation.DataContext.Entity.Base;
+
+namespace Reservation.DataContext.Entity
+{
+    public class Room : BaseEntity
+    {
+        public string RoomCode { get; set; }
+        public string RoomName { get; set; }
+        public string ShortName { get; set; }
+        public string Description { get; set; }
+        public int LimitNumber { get; set; }
+    }
+}

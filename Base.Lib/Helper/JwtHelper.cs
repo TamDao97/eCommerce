@@ -24,7 +24,7 @@ namespace Base.Lib.Helper
             try
             {
                 var tokenHandler = new JwtSecurityTokenHandler();
-                var tokenKey = Encoding.UTF8.GetBytes(configuration["JWT:Key"]);
+                var tokenKey = Encoding.UTF8.GetBytes(configuration["Jwt:Key"]);
                 var tokenDescriptor = new SecurityTokenDescriptor
                 {
                     Subject = new ClaimsIdentity(new Claim[] { new Claim(ClaimTypes.Name, userName) }),
@@ -53,7 +53,7 @@ namespace Base.Lib.Helper
 
         public static ClaimsPrincipal GetPrincipalFromExpiredToken(string token, IConfiguration configuration)
         {
-            var Key = Encoding.UTF8.GetBytes(configuration["JWT:Key"]);
+            var Key = Encoding.UTF8.GetBytes(configuration["Jwt:Key"]);
             var tokenValidationParameters = new TokenValidationParameters
             {
                 ValidateIssuer = false,
