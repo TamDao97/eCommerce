@@ -1,13 +1,12 @@
-﻿using Base.Lib.Common;
-using Base.Lib.Helper;
-using Microsoft.AspNetCore.Identity;
-using Reservation.Commons;
-using Reservation.DataContext.Dto;
-using Reservation.DataContext.Entity.Extends;
-using Reservation.Services.Base;
-using Reservation.UnitOfWork;
+﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.Extensions.Options;
+using Reservation.API.Commons;
+using Reservation.API.DataContext.Dto;
+using Reservation.API.DataContext.Entity.Extends;
+using TD.Lib.Common;
+using TD.Lib.Helper;
 
-namespace Reservation.Services
+namespace Reservation.API.Services
 {
     public interface IAuthService
     {
@@ -18,14 +17,21 @@ namespace Reservation.Services
 
     public class AuthService : IAuthService
     {
-        private readonly UserManager<User> _userManager;
-        private readonly SignInManager<User> _signInManager;
+        private readonly UserManager<ApplicationUser> _userManager;
+        private readonly SignInManager<ApplicationUser> _signInManager;
         private readonly IConfiguration _configuration;
-        private AppSettings _appSettings;
+        private readonly AppSettings _appSettings;
 
-        public AuthService(IConfiguration configuration)
+        public AuthService(
+            UserManager<ApplicationUser> userManager
+            , SignInManager<ApplicationUser> signInManager
+            , IConfiguration configuration
+            , IOptions<AppSettings> appSettings)
         {
+            _userManager = userManager;
+            _signInManager = signInManager;
             _configuration = configuration;
+            _appSettings = appSettings.Value;
         }
 
         public async Task<Response<CurrentUser>> GetCurrentUser(string userName)
@@ -123,10 +129,11 @@ namespace Reservation.Services
             //if (IsDuplicated(ref errorMess, nameof(req.UserName), req.UserName))
             //    return Response<bool>.Error(StatusCode.InternalServerError, errorMess);
 
-            var user = new User { Id = Guid.NewGuid(), UserName = req.UserName, Email = req.UserName };
+            var user = new ApplicationUser { Id = Guid.NewGuid(), UserName = req.UserName, DisplayName = req.UserName, Email = req.UserName };
             var rs = await _userManager.CreateAsync(user, req.Password);
+
             if (!rs.Succeeded)
-                return Response<bool>.Error(StatusCode.InternalServerError, "Không thể đăng ký tài khoản trên hệ thống!");
+                return Response<bool>.Error(StatusCode.InternalServerError, rs.Errors.FirstOrDefault()?.Description);
 
             await _signInManager.SignInAsync(user, isPersistent: false);
             return Response<bool>.Success(true, StatusCode.Ok.ToDescription());

@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.34916.146
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Base.Lib", "Base.Lib\Base.Lib.csproj", "{E1794501-A3DA-4029-8570-6558DD929CCE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TD.Lib", "Base.Lib\TD.Lib.csproj", "{E1794501-A3DA-4029-8570-6558DD929CCE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reservation", "Reservation\Reservation.csproj", "{00529D10-B1E0-43FC-98BD-CEEBCB63ABAC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Reservation.API", "Reservation\Reservation.API.csproj", "{00529D10-B1E0-43FC-98BD-CEEBCB63ABAC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

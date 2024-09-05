@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Reservation.DataContext.Dto.Base
+namespace Reservation.API.DataContext.Dto.Base
 {
     public class BaseDto
     {

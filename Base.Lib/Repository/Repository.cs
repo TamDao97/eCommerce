@@ -1,13 +1,13 @@
 ﻿using Microsoft.EntityFrameworkCore;
 
-namespace Base.Lib.Repository
+namespace TD.Lib.Repository
 {
     public interface IRepository<T> where T : class
     {
-        T GetById(object id);
-        T Insert(T entity);
-        T Update(T entity);
-        T Delete(T entity);
+        Task<T> GetByIdAsync(object id);
+        Task<T> CreateAsync(T entity);
+        Task<T> UpdateAsync(T entity);
+        Task<T> DeleteAsync(T entity);
         IQueryable<T> AsNoTracking { get; }
     }
 
@@ -24,24 +24,24 @@ namespace Base.Lib.Repository
 
         public virtual IQueryable<T> AsNoTracking => _entities.AsNoTracking();
 
-        public virtual T Delete(T entity)
+        public virtual async Task<T> GetByIdAsync(object id)
         {
-            return _entities.Remove(entity).Entity;
+            return await _entities.FindAsync(id);
         }
 
-        public virtual T GetById(object id)
+        public virtual async Task<T> CreateAsync(T entity)
         {
-            return _entities.Find(id);
+            return (await _entities.AddAsync(entity)).Entity;
         }
 
-        public virtual T Insert(T entity)
-        {
-            return _entities.Add(entity).Entity;
-        }
-
-        public virtual T Update(T entity)
+        public virtual async Task<T> UpdateAsync(T entity)
         {
             return _entities.Update(entity).Entity;
+        }
+
+        public virtual async Task<T> DeleteAsync(T entity)
+        {
+            return _entities.Remove(entity).Entity;
         }
     }
 }

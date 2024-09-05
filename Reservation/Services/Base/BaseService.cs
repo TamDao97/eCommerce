@@ -1,15 +1,15 @@
-﻿using Base.Lib.Common;
-using Base.Lib.Helper;
-using Reservation.DataContext.Entity.Base;
-using Reservation.UnitOfWork;
+﻿using Reservation.API.DataContext.Entity.Base;
+using Reservation.API.UnitOfWork;
+using TD.Lib.Common;
+using TD.Lib.Helper;
 
-namespace Reservation.Services.Base
+namespace Reservation.API.Services.Base
 {
     public interface IBaseService<T> where T : BaseEntity, new()
     {
         #region CRUD
-        Task<Response<T>> Insert(T entity);
-        Task<Response<T>> Update(T entity);
+        Task<Response<T>> CreateAsync(T entity);
+        Task<Response<T>> UpdateAsync(T entity);
         Task<Response<T>> Delete(T entity, bool isActual = false);
         #endregion
 
@@ -31,7 +31,7 @@ namespace Reservation.Services.Base
             _unitOfWork = unitOfWork;
         }
 
-        public virtual async Task<Response<T>> Insert(T entity)
+        public virtual async Task<Response<T>> CreateAsync(T entity)
         {
             if (entity == null)
                 throw new ArgumentNullException();
@@ -43,12 +43,12 @@ namespace Reservation.Services.Base
             entity.DateModify = DateTime.Now;
             entity.IsDeleted = false;
 
-            entity = _unitOfWork.GetRepository<T>().Insert(entity);
-            _unitOfWork.SaveChanges();
+            entity = await _unitOfWork.GetRepository<T>().CreateAsync(entity);
+            await _unitOfWork.SaveChangesAsync();
             return Response<T>.Success(entity, StatusCode.Ok.ToDescription());
         }
 
-        public virtual async Task<Response<T>> Update(T entity)
+        public virtual async Task<Response<T>> UpdateAsync(T entity)
         {
             if (entity == null)
                 throw new ArgumentNullException();
@@ -57,8 +57,8 @@ namespace Reservation.Services.Base
             entity.DateModify = DateTime.Now;
             entity.IsDeleted = false;
 
-            entity = _unitOfWork.GetRepository<T>().Update(entity);
-            _unitOfWork.SaveChanges();
+            entity = await _unitOfWork.GetRepository<T>().UpdateAsync(entity);
+            await _unitOfWork.SaveChangesAsync();
             return Response<T>.Success(entity, StatusCode.Ok.ToDescription());
         }
 
@@ -73,21 +73,21 @@ namespace Reservation.Services.Base
                 entity.DateModify = DateTime.Now;
                 entity.IsDeleted = true;
 
-                entity = _unitOfWork.GetRepository<T>().Update(entity);
-                _unitOfWork.SaveChanges();
+                entity = await _unitOfWork.GetRepository<T>().UpdateAsync(entity);
+                await _unitOfWork.SaveChangesAsync();
                 return Response<T>.Success(entity, StatusCode.Ok.ToDescription());
             }
             else
             {
-                entity = _unitOfWork.GetRepository<T>().Delete(entity);
-                _unitOfWork.SaveChanges();
+                entity = await _unitOfWork.GetRepository<T>().DeleteAsync(entity);
+                await _unitOfWork.SaveChangesAsync();
                 return Response<T>.Success(entity, StatusCode.Ok.ToDescription());
             }
         }
 
         public virtual async Task<Response<T>> GetById(Guid id)
         {
-            T entity = _unitOfWork.GetRepository<T>().GetById(id);
+            T entity = await _unitOfWork.GetRepository<T>().GetByIdAsync(id);
             if (entity == null)
                 throw new ArgumentNullException();
 

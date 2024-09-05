@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel;
 
-namespace Reservation.DataContext.Enums
+namespace Reservation.API.DataContext.Enums
 {
     public enum ImageType
     {

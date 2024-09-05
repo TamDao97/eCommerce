@@ -1,8 +1,8 @@
 {
   "Version": 1,
-  "Hash": "g+rtRND4fGAkKhrdayoCdIWWuo9dhsmT4BMudppVrqA=",
-  "Source": "Reservation",
-  "BasePath": "_content/Reservation",
+  "Hash": "0I3XQvnxaFXzVlOA++ad160sXf12ECk1YiryvFtSkQ0=",
+  "Source": "Reservation.API",
+  "BasePath": "_content/Reservation.API",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],

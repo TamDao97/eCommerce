@@ -5,12 +5,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Base.Lib.Repository
+namespace TD.Lib.Repository
 {
     public interface IUnitOfWork : IDisposable
     {
         public IRepository<T> GetRepository<T>() where T : class;
-        public int SaveChanges();
+        public Task<int> SaveChangesAsync();
     }
 
     public class UnitOfWork : IUnitOfWork
@@ -32,9 +32,9 @@ namespace Base.Lib.Repository
             GC.Collect();
         }
 
-        public int SaveChanges()
+        public async Task<int> SaveChangesAsync()
         {
-            return _dbContext.SaveChanges();
+            return await _dbContext.SaveChangesAsync();
         }
     }
 }

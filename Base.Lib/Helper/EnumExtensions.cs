@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Base.Lib.Helper
+namespace TD.Lib.Helper
 {
     public static class EnumExtensions
     {

@@ -1,6 +1,6 @@
-﻿using Reservation.DataContext.Entity.Base;
+﻿using Reservation.API.DataContext.Entity.Base;
 
-namespace Reservation.DataContext.Entity
+namespace Reservation.API.DataContext.Entity
 {
     /// <summary>
     /// Chi nhánh

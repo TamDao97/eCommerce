@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Base.Lib.Common
+namespace TD.Lib.Common
 {
     public static class MessageText
     {

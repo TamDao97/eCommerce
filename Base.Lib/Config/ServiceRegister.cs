@@ -1,13 +1,13 @@
-﻿using Base.Lib.Repository;
-using Microsoft.Extensions.Configuration;
+﻿using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using TD.Lib.Repository;
 
-namespace Base.Lib.Config
+namespace TD.Lib.Config
 {
     public static class ServiceRegister
     {

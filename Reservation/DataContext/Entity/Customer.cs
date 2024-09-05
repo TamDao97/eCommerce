@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Reservation.DataContext.Entity.Base;
+using Reservation.API.DataContext.Entity.Base;
 
-namespace Reservation.DataContext.Entity
+namespace Reservation.API.DataContext.Entity
 {
     public class Customer : BaseEntity
     {

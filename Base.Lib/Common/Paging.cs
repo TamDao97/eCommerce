@@ -1,11 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Base.Lib.Common
+﻿namespace TD.Lib.Common
 {
+    public class GridFilterBase : PagingInfo
+    {
+        public string Keyword { get; set; }
+    }
+
     public class PagingInfo
     {
         public int PageNumber { get; set; } = 1;

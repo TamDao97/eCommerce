@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel;
 
-namespace Base.Lib.Common
+namespace TD.Lib.Common
 {
     public enum StatusCode
     {

@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Reservation.DataContext.Entity.Base
+namespace Reservation.API.DataContext.Entity.Base
 {
     public class BaseEntity
     {

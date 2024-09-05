@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Reservation.DataContext.Dto
+namespace Reservation.API.DataContext.Dto
 {
     public class LoginReq
     {

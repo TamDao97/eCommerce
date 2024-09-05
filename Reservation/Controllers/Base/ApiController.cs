@@ -1,8 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Reservation.DataContext.Dto;
-using Reservation.Services;
+using Reservation.API.DataContext.Dto;
+using Reservation.API.Services;
 
-namespace Reservation.Controllers.Base
+namespace Reservation.API.Controllers.Base
 {
     public abstract partial class ApiController : ControllerBase
     {

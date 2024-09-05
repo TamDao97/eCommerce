@@ -1,12 +1,12 @@
-﻿using Reservation.DataContext;
+﻿using Reservation.API.DataContext;
 
-namespace Reservation.UnitOfWork
+namespace Reservation.API.UnitOfWork
 {
-    public interface IUnitOfWork : Base.Lib.Repository.IUnitOfWork, IDisposable
+    public interface IUnitOfWork : TD.Lib.Repository.IUnitOfWork, IDisposable
     {
     }
 
-    public class UnitOfWork : Base.Lib.Repository.UnitOfWork, IUnitOfWork
+    public class UnitOfWork : TD.Lib.Repository.UnitOfWork, IUnitOfWork
     {
         ReservationDbContext _reservationDbContext;
         public UnitOfWork(ReservationDbContext reservationDbContext) : base(reservationDbContext)

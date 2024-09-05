@@ -1,11 +1,12 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
-using Reservation.DataContext.Entity;
+using Reservation.API.DataContext.Entity;
+using Reservation.API.DataContext.Entity.Extends;
 
-namespace Reservation.DataContext
+namespace Reservation.API.DataContext
 {
-    public class ReservationDbContext : IdentityDbContext<IdentityUser>
+    public class ReservationDbContext : IdentityDbContext<ApplicationUser, ApplicationRole, Guid>
     {
         public ReservationDbContext()
         {
@@ -15,6 +16,8 @@ namespace Reservation.DataContext
             : base(options)
         {
         }
+        public DbSet<Permission> Permissions { get; set; }
+        public DbSet<RolePermission> RolePermissions { get; set; }
         public DbSet<Entity.Reservation> Reservations { get; set; }
         public DbSet<Branch> Branches { get; set; }
         public DbSet<Customer> Customers { get; set; }

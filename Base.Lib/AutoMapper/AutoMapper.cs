@@ -1,6 +1,6 @@
 ﻿using AutoMapper;
 
-namespace Base.Lib.AutoMapper
+namespace TD.Lib.AutoMapper
 {
     public static class AutoMapperGeneric
     {

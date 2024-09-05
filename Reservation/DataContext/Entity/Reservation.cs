@@ -1,7 +1,7 @@
-﻿using Reservation.DataContext.Entity.Base;
-using Reservation.DataContext.Enums;
+﻿using Reservation.API.DataContext.Entity.Base;
+using Reservation.API.DataContext.Enums;
 
-namespace Reservation.DataContext.Entity
+namespace Reservation.API.DataContext.Entity
 {
     /// <summary>
     /// Đặt bàn

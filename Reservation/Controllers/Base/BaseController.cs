@@ -1,10 +1,10 @@
-﻿using Base.Lib.AutoMapper;
-using Base.Lib.Common;
-using Microsoft.AspNetCore.Mvc;
-using Reservation.DataContext.Entity.Base;
-using Reservation.Services.Base;
+﻿using Microsoft.AspNetCore.Mvc;
+using Reservation.API.DataContext.Entity.Base;
+using Reservation.API.Services.Base;
+using TD.Lib.AutoMapper;
+using TD.Lib.Common;
 
-namespace Reservation.Controllers.Base
+namespace Reservation.API.Controllers.Base
 {
     public class BaseController<TEntity, TDto> : ApiController where TEntity : BaseEntity, new() where TDto : class
     {
@@ -15,12 +15,12 @@ namespace Reservation.Controllers.Base
             _baseService = baseService;
         }
 
-        [Route("insert")]
+        [Route("create")]
         [HttpPost]
-        public virtual async Task<ActionResult<Response<bool>>> Insert(TDto dtoReq)
+        public virtual async Task<ActionResult<Response<bool>>> Create(TDto dtoReq)
         {
             TEntity entity = AutoMapperGeneric.Map<TDto, TEntity>(dtoReq);
-            return Ok(await _baseService.Insert(entity));
+            return Ok(await _baseService.CreateAsync(entity));
         }
 
         [Route("update")]
@@ -28,7 +28,7 @@ namespace Reservation.Controllers.Base
         public virtual async Task<ActionResult<Response<bool>>> Update(TDto dtoReq)
         {
             TEntity entity = AutoMapperGeneric.Map<TDto, TEntity>(dtoReq);
-            return Ok(await _baseService.Update(entity));
+            return Ok(await _baseService.UpdateAsync(entity));
         }
 
         [Route("delete/{id}")]

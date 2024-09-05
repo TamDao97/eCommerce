@@ -1,9 +1,10 @@
-using Base.Lib.Common;
 using Microsoft.AspNetCore.Mvc;
-using Reservation.Controllers.Base;
-using Reservation.DataContext.Dto;
-using Reservation.Services;
-namespace Reservation.Controllers
+using Reservation.API.Controllers.Base;
+using Reservation.API.DataContext.Dto;
+using Reservation.API.Services;
+using TD.Lib.Common;
+
+namespace Reservation.API.Controllers
 {
     [ApiController]
     [Route("[controller]")]

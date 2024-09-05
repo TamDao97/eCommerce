@@ -1,4 +1,4 @@
-﻿namespace Reservation.Commons
+﻿namespace Reservation.API.Commons
 {
     public class Constants
     {
