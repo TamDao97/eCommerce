@@ -13,7 +13,7 @@ namespace TD.Lib.Config
     {
         public static void LibRegisters(this IServiceCollection services, IConfiguration config)
         {
-            services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
+            services.AddScoped(typeof(ITDRepository<>), typeof(TDRepository<>));
         }
     }
 }

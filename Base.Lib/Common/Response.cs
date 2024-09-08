@@ -67,4 +67,43 @@ namespace TD.Lib.Common
             };
         }
     }
+
+    public class Response
+    {
+        public StatusCode Status { get; set; }
+        public string Message { get; set; }
+
+        /// <summary>
+        /// Response success
+        /// </summary>
+        /// <typeparam name="T"></typeparam>
+        /// <param name="data"></param>
+        /// <param name="message"></param>
+        /// <returns></returns>
+        public static Response Success(string message)
+        {
+            return new Response
+            {
+                Status = StatusCode.Ok,
+                Message = message
+            };
+        }
+
+        /// <summary>
+        /// if has orther error then set 500 for status
+        /// </summary>
+        /// <typeparam name="T"></typeparam>
+        /// <param name="data"></param>
+        /// <param name="status"></param>
+        /// <param name="message"></param>
+        /// <returns></returns>
+        public static Response Error(StatusCode status, string message)
+        {
+            return new Response
+            {
+                Status = status,
+                Message = message
+            };
+        }
+    }
 }
