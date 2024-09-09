@@ -1,5 +1,5 @@
 # Ignore toàn bộ thư mục
-D:\Coderkechuyen\TDSolution\.vs
+/.vs
 
 # Ignore file cụ thể
 secret-config.json
