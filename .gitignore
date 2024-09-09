@@ -11,3 +11,4 @@ secret-config.json
 # Ignore một thư mục con trong thư mục gốc
 /dist/
 /.vs
+/eCom/.vs/eCom/config/applicationhost.config
