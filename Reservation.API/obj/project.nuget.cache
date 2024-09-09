@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/8AnQxOPUac=",
+  "dgSpecHash": "jQhLDan386A=",
   "success": true,
-  "projectFilePath": "D:\\Coderkechuyen\\TDSolution\\Reservation\\Reservation.API.csproj",
+  "projectFilePath": "D:\\Coderkechuyen\\TDSolution\\Reservation.API\\Reservation.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\tamdc\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\tamdc\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
